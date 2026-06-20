@@ -1,6 +1,6 @@
 # Class Project CYB333
 
-Password Strength Analyzer
+##Password Strength Analyzer
 
 Project Description:
 
