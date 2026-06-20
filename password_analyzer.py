@@ -34,23 +34,7 @@ else:
   print("Length---> Not Satisfied")
 
 
-# This will check if the password has any uppercases
-
-has_uppercase = False
-
-for letter in password:
-  if letter.isupper():
-    has_uppercase = True
-    
-if has_uppercase:
-  score = score + 1
-  print("Uppercase---> Satisfied")
-else:
-  suggestions.append("Add an uppercase letter.")
-  print("Uppercase---> Not Satisfied")
-
-
-# This will check if any words in the password has any lowercase letters
+# This will check if any words in the password has any LOWERCASE letters
 
 has_lowercase = False
 
@@ -66,7 +50,23 @@ else:
   print("Lowercase---> Not Satisfied")
 
 
-# In this section we will see if the password has any numbers
+# This will check if the password has any UPPERCASE
+
+has_uppercase = False
+
+for letter in password:
+  if letter.isupper():
+    has_uppercase = True
+    
+if has_uppercase:
+  score = score + 1
+  print("Uppercase---> Satisfied")
+else:
+  suggestions.append("Add an uppercase letter.")
+  print("Uppercase---> Not Satisfied")
+
+
+# In this section we will see if the password has any NUMBERS
 
 has_numbers = False
 
@@ -82,7 +82,7 @@ else:
   print("Numbers---> Not Satisfied")
 
 
-# Here it will check if there is any special characters
+# Here it will check if there is any SPECIAL CHARACTERS
 
 has_special = False
 
@@ -98,17 +98,17 @@ else:
   print("Special characters---> Not Satisfied")
   
 
-# Here will display the password strength depending on score
+# Here will display the PASSWORD STRENGTH depending on score
 
 if score == 5:
   print("Password Strength: Strong")
 elif score >= 3:
   print("Password Strength: Medium")
 else:
-  print("Password Strength: Weak")
+  print("Password Strength: !!WEAK!! !URGENT!")
 
 
-# here will show the suggestions if the password is missing requirements
+# here will print the SUGGENTIONS if the password is missing requirements
 
 if suggestions:
   print("Suggestions:")
