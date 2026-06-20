@@ -1,4 +1,5 @@
-# Class-Project-CYB333
+# Class Project CYB333
+
 Password Strength Analyzer
 
 Project Description:
