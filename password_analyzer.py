@@ -92,7 +92,7 @@ for special in password:
 
 if has_special:
   score = score + 1
-  print("Special characters ---> is Satisfied")
+  print("Special characters ---> Satisfied")
 else:
   suggestions.append("Add one special character.")
   print("Special characters ---> Not Satisfied")
@@ -108,7 +108,7 @@ else:
   print("Password Strength: !!WEAK!! !URGENT!")
 
 
-# here will print the SUGGENTIONS if the password is missing requirements
+# Here will print the SUGGENTIONS if the password is missing requirements
 
 if suggestions:
   print("Suggestions:")
