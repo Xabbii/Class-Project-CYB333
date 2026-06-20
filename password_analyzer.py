@@ -19,6 +19,20 @@ else:
   suggestions.append("Use at least 8 characters.")
   print("Length not Satisfied")
 
+# This will check if the password has any uppercases
+has_uppercase = False
+
+for letter in password:
+  if letter.isupper():
+    has_uppercase = True
+    
+if has_uppercase:
+  score = score + 1
+  print("Uppercase Satisfied")
+else:
+  suggestions.append("Add an uppercase letter.")
+  print("Uppercase not Satisfied")
+
 # This will display the password check result to the user
 print("Password Received.")
 print("Password length:", password_length)
