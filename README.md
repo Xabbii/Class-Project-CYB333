@@ -8,7 +8,7 @@ My name is Javier, and this repository is for my CYB333 class project. For this 
 
 ### Purpose of the Project:
 
-The purpose of this project is to build a tool that checks how strong a password is. The program will review passwords based on length, uppercase letters, lowercase letters, numbers, special characters, and common weak password patterns
+The purpose of this project is to build a tool that checks how strong a password is. The program will review passwords based on length, uppercase letters, lowercase letters, numbers, and special characters.
 
 ### Goal:
 
