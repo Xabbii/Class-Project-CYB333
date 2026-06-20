@@ -74,18 +74,20 @@ if has_special:
 else:
   suggestions.append("Use at least one special character.")
   print("Special character not Satisfied")
-  
-
-
-
-
-
-  
 
 # This will display the password check result to the user
 print("Password Received.")
 print("Password length:", password_length)
 
+# Here will display the password strength depending on score
+if score == 5:
+  print("Password Strength: Strong")
+
+elif score >= 3:
+  print("Password Strength: Medium")
+
+else:
+  print("Password Strength: Weak")
 
 
 
