@@ -11,6 +11,11 @@ password_length = len(password)
 score = 0
 suggestions = []
 
+# This will check if the password meets the minimum length requirements
+if password_length >= 8
+  print("Length Satisfied")
+else:
+  print("Length not Satisfied")
 
 # This will display the password check result to the user
 print("Password Received.")
