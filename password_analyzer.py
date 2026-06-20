@@ -78,7 +78,7 @@ if has_numbers:
   score = score + 1
   print("Numbers---> Satisfied")
 else:
-  suggestions.append("Use at least one number.")
+  suggestions.append("Add one number.")
   print("Numbers---> Not Satisfied")
 
 
@@ -94,7 +94,7 @@ if has_special:
   score = score + 1
   print("Special characters---> is Satisfied")
 else:
-  suggestions.append("Use at least one special character.")
+  suggestions.append("Add one special character.")
   print("Special characters---> Not Satisfied")
   
 
