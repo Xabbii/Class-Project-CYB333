@@ -14,10 +14,10 @@ suggestions = []
 # This will check if the password meets the minimum length requirements
 if password_length >= 8:
   score = score + 1
-  print("Length Satisfied")
+  print("Length: Satisfied")
 else:
   suggestions.append("Use at least 8 characters.")
-  print("Length not Satisfied")
+  print("Length: not Satisfied")
 
 # This will check if the password has any uppercases
 has_uppercase = False
@@ -28,10 +28,10 @@ for letter in password:
     
 if has_uppercase:
   score = score + 1
-  print("Uppercase Satisfied")
+  print("Uppercase: Satisfied")
 else:
   suggestions.append("Add an uppercase letter.")
-  print("Uppercase not Satisfied")
+  print("Uppercase: not Satisfied")
 
 # This will check if any words in the password has any lowercase letters
 has_lowercase = False
@@ -42,10 +42,10 @@ for letter in password:
 
 if has_lowercase:
   score = score + 1
-  print("Lowercase Satisfied")
+  print("Lowercase: Satisfied")
 else:
   suggestions.append("Add a lowercase letter.")
-  print("Lowercase not Satisfied")
+  print("Lowercase: not Satisfied")
 
 # In this section we will see if the password has any numbers
 has_numbers = False
@@ -56,10 +56,10 @@ for numbers in password:
 
 if has_numbers:
   score = score + 1
-  print("Numbers Satisfied")
+  print("Numbers: Satisfied")
 else:
   suggestions.append("Use at least one number.")
-  print("Numbers not Satisfied")
+  print("Numbers: not Satisfied")
 
 # Here it will check if there is any special characters
 has_special = False
@@ -70,10 +70,10 @@ for special in password:
 
 if has_special:
   score = score + 1
-  print("Special character is Satisfied")
+  print("Special characters: is Satisfied")
 else:
   suggestions.append("Use at least one special character.")
-  print("Special character not Satisfied")
+  print("Special characters: not Satisfied")
 
 # This will display the password check result to the user
 print("Password Received.")
