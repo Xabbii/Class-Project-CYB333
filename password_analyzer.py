@@ -50,7 +50,7 @@ else:
   print("Lowercase ---> Not Satisfied")
 
 
-# This will check if the password has any UPPERCASE
+# This will check if the password has any UPPERCASE letters
 
 has_uppercase = False
 
