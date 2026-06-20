@@ -47,6 +47,22 @@ else:
   suggestions.append("Add a lowercase letter.")
   print("Lowercase not Satisfied")
 
+# In this section we will see if the password has any numbers
+has_numbers = False
+
+for numbers in password:
+  if numbers.isdigit():
+    has_numbers = True
+
+if has_numbers:
+  score = score + 1
+  print("Numbers Satisfied")
+else:
+  suggestions.append("Use at least one number.")
+  print("Numbers not Satisfied")
+
+
+
 
 
   
