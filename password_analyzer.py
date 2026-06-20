@@ -30,7 +30,7 @@ if password_length >= 8:
   score = score + 1
   print("Length ---> Satisfied")
 else:
-  suggestions.append("Use at least 8 characters.")
+  suggestions.append("--Use at least 8 characters.")
   print("Length ---> Not Satisfied")
 
 
@@ -46,7 +46,7 @@ if has_lowercase:
   score = score + 1
   print("Lowercase ---> Satisfied")
 else:
-  suggestions.append("Add a lowercase letter.")
+  suggestions.append("--Add a lowercase letter.")
   print("Lowercase ---> Not Satisfied")
 
 
@@ -62,7 +62,7 @@ if has_uppercase:
   score = score + 1
   print("Uppercase ---> Satisfied")
 else:
-  suggestions.append("Add an uppercase letter.")
+  suggestions.append("--Add an uppercase letter.")
   print("Uppercase ---> Not Satisfied")
 
 
@@ -78,7 +78,7 @@ if has_numbers:
   score = score + 1
   print("Numbers ---> Satisfied")
 else:
-  suggestions.append("Add one number.")
+  suggestions.append("--Add one number.")
   print("Numbers ---> Not Satisfied")
 
 
@@ -94,7 +94,7 @@ if has_special:
   score = score + 1
   print("Special characters ---> Satisfied")
 else:
-  suggestions.append("Add one special character.")
+  suggestions.append("--Add one special character.")
   print("Special characters ---> Not Satisfied")
   
 
