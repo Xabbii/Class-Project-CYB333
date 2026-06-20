@@ -33,6 +33,24 @@ else:
   suggestions.append("Add an uppercase letter.")
   print("Uppercase not Satisfied")
 
+# This will check if any words in the password has any lowercase letters
+has_lowercase = False
+
+for letter in password:
+  if letter.islower():
+    has_lowercase = True
+
+if has_lowercase:
+  score = score + 1
+  print("Lowercase Satisfied")
+else:
+  suggestions.append("Add a lowercase letter.")
+  print("Lowercase not Satisfied")
+
+
+
+  
+
 # This will display the password check result to the user
 print("Password Received.")
 print("Password length:", password_length)
