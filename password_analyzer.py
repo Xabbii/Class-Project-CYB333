@@ -89,6 +89,21 @@ elif score >= 3:
 else:
   print("Password Strength: Weak")
 
+# here will show the suggestions if the password is missing requirements
+
+if suggestions:
+  print("Suggestions:")
+  for suggestion in suggestions:
+    print(suggestion)
+    
+
+
+
+
+
+
+
+
 
 
 
