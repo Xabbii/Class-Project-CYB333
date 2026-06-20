@@ -61,6 +61,21 @@ else:
   suggestions.append("Use at least one number.")
   print("Numbers not Satisfied")
 
+# Here it will check if there is any special characters
+has_special = False
+
+for special in password:
+  if not special.isalnum():
+    has_special = True
+
+if has_special:
+  score = score + 1
+  print("Special character is Satisfied")
+else:
+  suggestions.append("Use at least one special character.")
+  print("Special character not Satisfied")
+  
+
 
 
 
